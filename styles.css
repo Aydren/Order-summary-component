@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+
+.attribution {
+    font-size: 11px; text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+*{
+    margin: 0;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+p {
+    font-size: 16px;
+}
+
+body {
+    background-image: url(images/pattern-background-desktop.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+section {
+    margin: 10% 35%;
+}
+
+.container > img {
+    width: 100%;
+}
+
+.container {
+    background: rgb(247, 246, 246);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.first-text {
+    padding: 1em 1em;
+    text-align: center;
+
+}
+
+.first-text > h1 {
+    font-weight: bolder;
+}
+
+.first-text > h1, .first-text > p{
+    padding-bottom: 1em;
+}
+
+.plan-whole {
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    background: hsl(0, 0%, 89%);
+    margin: 0 2em;
+    padding: .5em;
+}
+
+.plan {
+    font-size: 12px;
+}
+
+.plan > p {
+    opacity: 50%;
+}
+
+.change, a {
+    margin-top: 1em;
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.5em;
+}
+
+.proceed, .cancel {
+    padding: 1em;
+    margin: .5em;
+    border-radius: 5px;
+    border: none;
+}
+
+.proceed {
+    border-radius: 5px;
+    background: hsl(245, 75%, 52%);
+}
+
+.proceed a {
+    text-decoration: none;
+    color: white;
+}
+
+.cancel a {
+    text-decoration: none;
+    color: black;
+}
+
+button:hover {
+    opacity: 80%;
+}
